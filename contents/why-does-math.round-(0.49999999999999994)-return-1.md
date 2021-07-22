@@ -1,6 +1,6 @@
-##为什么Math.round(0.49999999999999994)返回1？
+## 为什么Math.round(0.49999999999999994)返回1？
 
-###问题描述：
+### 问题描述：
 
 在下面的程序中你可以看到每个稍微比.5小的值都被向下舍入了，除了`0.5`那个。
 
@@ -43,7 +43,7 @@ for (int i = 10; i >= 0; i--) {
 ```
 我使用 Java 6 update 31。
 
-###回答：
+### 回答：
 
 **总结**
 
@@ -89,4 +89,4 @@ public static long round(double a) {
 [4] http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/7u40-b43/java/lang/Math.java#Math.round%28double%29
 
 
-[stackoverflow链接：Why does Math.round(0.49999999999999994) return 1?](http://stackoverflow.com/questions/9902968/why-does-math-round0-49999999999999994-return-1)
+[ 

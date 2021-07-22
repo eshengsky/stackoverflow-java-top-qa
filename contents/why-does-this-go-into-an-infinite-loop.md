@@ -139,5 +139,4 @@ Starting background thread...
 ```
 
 
-stackoverflow链接：
-[http://stackoverflow.com/questions/3831341/why-does-this-go-into-an-infinite-loop](http://stackoverflow.com/questions/3831341/why-does-this-go-into-an-infinite-loop)
+ 

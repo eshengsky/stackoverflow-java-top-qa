@@ -372,4 +372,4 @@ manager.enqueue(request);
 
 除非你想对下载过程有绝对的控制权，否则我强烈推荐你使用`DownloadManager`。因为他已经处理好了上面的大部分建议。
 
-stackoverflow链接：http://stackoverflow.com/questions/3028306/download-a-file-with-android-and-showing-the-progress-in-a-progressdialog
+ 

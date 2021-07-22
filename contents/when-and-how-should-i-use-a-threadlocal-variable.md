@@ -30,4 +30,4 @@ public class Foo
 
 更新：又发现了[Alex Vasseur's blog entry](http://avasseur.blogspot.jp/2003/11/threadlocal-and-memory-leaks.html)，它帮助我查清楚了一些ThreadLocal的问题。
 
-stackoverflow链接：http://stackoverflow.com/questions/817856/when-and-how-should-i-use-a-threadlocal-variable
+ 

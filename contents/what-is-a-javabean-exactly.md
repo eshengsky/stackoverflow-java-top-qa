@@ -31,11 +31,4 @@ JavaBean 只是一个[标准](http://www.oracle.com/technetwork/java/javase/docu
 
 之所以需要JavaBean，是因为这样预定义了一种类的格式，一些库能依据这个约定的格式，来做一些自动化处理。举个例子，如果一个类库需要通过流来处理你传递的任何对象，它知道它可以正常处理，因为这个对象是可序列化的。（假设这个类库要求你的对象是JavaBeans）
 
-**stackoverflow链接**：
-http://stackoverflow.com/questions/3295496/what-is-a-javabean-exactly
-
-### 关于序列化相关博客
-
-
-1. [我对Java Serializable（序列化）的理解和总结](http://xiebh.iteye.com/blog/121311)
-2. [理解Java对象序列化](http://www.blogjava.net/jiangshachina/archive/2012/02/13/369898.html)
+** 

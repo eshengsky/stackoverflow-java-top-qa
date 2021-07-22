@@ -32,5 +32,4 @@ x = (short)(x + 4.6);
 ```
 
 
-stackoverflow链接
-http://stackoverflow.com/questions/8710619/java-operator
+ 

@@ -100,7 +100,4 @@ _完整方法签名 `Optional<T> getIfPresent(Class<T> enumClass, String value)`
 
 ---
 _其他的答案都大同小异,感兴趣的可以看原帖_
-stackoverflow链接
-[Lookup enum by string value
-](https://stackoverflow.com/questions/604424/lookup-enum-by-string-value)
-_译者:[MagicWolf](https://github.com/DaiDongLiang)_
+ 

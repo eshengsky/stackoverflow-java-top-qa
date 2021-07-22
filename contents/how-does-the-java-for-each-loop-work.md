@@ -20,4 +20,4 @@ for(Iterator<String> i = someList.iterator(); i.hasNext(); ) {
 此外，如果for(:)句法中右侧是一个数组而不是一个可迭代对象，那么内部代码用一个int型的计数器来防止数组越界。详见Java Language Specification:
 http://docs.oracle.com/javase/specs/jls/se8/html/jls-14.html#jls-14.14.2
 
-stackoverflow链接：http://stackoverflow.com/questions/85190/how-does-the-java-for-each-loop-work
+ 

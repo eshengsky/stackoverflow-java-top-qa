@@ -56,4 +56,4 @@ String[][] b = new String[3][4];
 		//输出[[A0, A1, A2, A3], [A0, A1, A2, A3], [A0, A1, A2, A3]]
 		
 ```
-stackoverflow链接： http://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array
+ 

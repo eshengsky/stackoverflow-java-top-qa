@@ -247,8 +247,4 @@ CPU的流水线指令执行
 这其实是个问题，如果CPU的设计放任这个问题，那么其速度就很难提升起来。为此，人们发明了一种技术，称为branch prediction，也就是分支预测。分支预测的作用，就是预测某个跳转指令是否会跳转。而CPU就根据自己的预测到目标地址取指令。这样，即可从一定程度提高运行速度。当然，分支预测在实现上有很多方法。 
 
 
-**stackoverflow链接**：
-
-这个问题的所有回答中，最高的回答，获取了上万个vote，还有很多个回答，非常疯狂，大家觉得不过瘾可以移步到这里查看
-
-http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array
+** 

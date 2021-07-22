@@ -9,5 +9,4 @@ public enum Blah {
 回答：
 是的，Blah.valuOf("A")将会给你Blah.A。
 valueOf()和values()这些静态方法是在编译时创建的，而且不会出现在源代码里。不过他们确实有出现在Javadoc,比如Dialog.ModalityType有这两个方法。
-stackoverflow链接：
-http://stackoverflow.com/questions/604424/lookup-enum-by-string-value
+ 

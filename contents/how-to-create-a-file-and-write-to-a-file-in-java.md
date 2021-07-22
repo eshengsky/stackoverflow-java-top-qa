@@ -146,5 +146,4 @@ public class writer {
 
 
 
-stackoverflow链接：
-http://stackoverflow.com/questions/2885173/how-to-create-a-file-and-write-to-a-file-in-java
+ 

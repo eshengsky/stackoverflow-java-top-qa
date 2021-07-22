@@ -73,5 +73,4 @@ public class MapUtil
 ```
 译注：这两种方法，我简单测试了下，如果map的size在十万级别以上，两者的耗时都是几百毫秒，第二个方法会快一些。否则，第一个方法快一些。因此，如果你处理的map，都是几十万级别以下的大小，两种方式随意使用，看个人喜欢了。
 
-stackoverflow链接：
-http://stackoverflow.com/questions/109383/how-to-sort-a-mapkey-value-on-the-values-in-java
+ 

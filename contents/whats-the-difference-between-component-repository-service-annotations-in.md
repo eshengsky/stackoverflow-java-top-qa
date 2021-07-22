@@ -67,11 +67,4 @@ public @interface ScheduleJob {...}
 * `@Service`层是业务逻辑层注解，这个注解只是标注该类处于业务逻辑层。
 * 用这些注解对应用进行分层之后，就能将请求处理，义务逻辑处理，数据库操作处理分离出来，为代码解耦，也方便了以后项目的维护和开发。
 
-#### Stackoverflow链接：
-
-[http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in](http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in)
-
-#### 拓展
-
-1. [Spring注解@Component、@Repository、@Service、@Controller区别](http://www.cnblogs.com/JAYIT/p/5593169.html)
-2. [Spring注解@Autowired、@Resource区别](http://www.cnblogs.com/leiOOlei/p/3713779.html)
+####  

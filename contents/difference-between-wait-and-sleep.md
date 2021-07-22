@@ -50,11 +50,4 @@ synchronized(LOCK) {
 
 
 
-**stackoverflow链接：**
-http://stackoverflow.com/questions/1036754/difference-between-wait-and-sleep
-
-### 相关问题及链接：
-
-1. [Java: notify() vs. notifyAll() all over again](http://stackoverflow.com/questions/37026/java-notify-vs-notifyall-all-over-again)
-2. [线程通信](http://ifeve.com/thread-signaling/)
-3. [最简实例说明wait、notify、notifyAll的使用方法](http://longdick.iteye.com/blog/453615)
+** 

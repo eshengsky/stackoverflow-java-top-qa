@@ -31,6 +31,4 @@ Apache Camel是一个开源的Java框架，其整合的目的主要是为了使�
 _Camel:将数据从一方获得,该数据可以是消息、文件流、JSON的多种形式的数据，然后处理，再发送，整合了多种数据获取、处理、发送方式，方便开发者使用_
 
 
-stackoverflow链接
-http://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel
-_译者:[王小过](https://github.com/whp1473)_
+ 

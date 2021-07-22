@@ -73,5 +73,4 @@
 
 如果你只需要使用key或者value使用方法#2，如果你坚持使用java的老版本（java 5 以前的版本）或者打算在迭代的时候移除entries，使用方法#3。其他情况请使用#1方法。避免使用#4方法。
 
-stackoverflow链接：
-http://stackoverflow.com/questions/1066589/iterate-through-a-hashmap
+ 

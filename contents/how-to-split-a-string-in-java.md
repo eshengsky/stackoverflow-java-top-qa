@@ -1,4 +1,4 @@
-##如何分割（split）string字符串
+## 如何分割（split）string字符串
 使用[`String#split()`](http://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-)方法
 
 如下所示：
@@ -12,5 +12,4 @@ String part2 = parts[1]; // 034556
 
 如果只是为了验证字符串中是否包含某个字符，使用[`String#contains`](http://docs.oracle.com/javase/8/docs/api/java/lang/String.html#contains-java.lang.CharSequence-)方法就行。注意该方法的参数，不是正则表达式
 
-stackoverflow链接：
-http://stackoverflow.com/questions/3481828/how-to-split-a-string-in-java
+ 

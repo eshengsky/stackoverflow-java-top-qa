@@ -1,23 +1,23 @@
-##ÊµÏÖRunnable½Ó¿Ú  VS. ¼Ì³ÐThreadÀà  £¿
+## Êµï¿½ï¿½Runnableï¿½Ó¿ï¿½  VS. ï¿½Ì³ï¿½Threadï¿½ï¿½  ï¿½ï¿½
 
-ÔÚJavaÖÐ£¬²¢·¢Ö´ÐÐÈÎÎñÒ»°ãÓÐÁ½ÖÖ·½Ê½£º
-£¨1£©ÊµÏÖRunnable½Ó¿Ú
-£¨2£©¼Ì³ÐThreadÀà
+ï¿½ï¿½Javaï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½Ê½ï¿½ï¿½
+ï¿½ï¿½1ï¿½ï¿½Êµï¿½ï¿½Runnableï¿½Ó¿ï¿½
+ï¿½ï¿½2ï¿½ï¿½ï¿½Ì³ï¿½Threadï¿½ï¿½
 
-Ò»°ã¶øÑÔ£¬ÍÆ¼öÊ¹ÓÃ·½Ê½£¨1£©,Ö÷ÒªÊÇÓÉÓÚ´ó¶àÊýÇé¿öÏÂ£¬ÈËÃÇ²¢²»»áÌØ±ðÈ¥¹Ø×¢Ïß³ÌµÄÐÐÎª£¬Ò²²»»áÈ¥¸ÄÐ´ThreadÒÑÓÐµÄÐÐÎª»ò·½·¨£¬½ö½öÊÇÆÚÍûÖ´ÐÐÈÎÎñ¶øÒÑ¡£
-Òò´Ë£¬Ê¹ÓÃ½Ó¿ÚµÄ·½Ê½ÄÜ±ÜÃâÒýÈëÒ»Ð©²¢²»ÐèÒªµÄ¶«Î÷£¬Í¬Ê±Ò²²»»áÓ°Ïì¼Ì³ÐÆäËûÀà£¬²¢Ê¹³ÌÐò¸ü¼ÓÁé»î¡£
-
-
-###¶îÍâµÄtips£º
-£¨1£©RunnableÓëThread²»ÊÇ¶ÔµÈµÄ¸ÅÄî
-ÔÚThinking in JavaÖÐ£¬×÷ÕßÍÂ²Û¹ýRunnableµÄÃüÃû£¬³ÆÆä½Ð×öTask¸üÎªºÏÀí¡£
-ÔÚJavaÖÐ£¬RunnableÖ»ÊÇÒ»¶ÎÓÃÓÚÃèÊöÈÎÎñµÄ´úÂë¶Î¶øÒÑ£¬ÊÇ¾²Ì¬µÄ¸ÅÄî£¬ÐèÒªÍ¨¹ýÏß³ÌÀ´Ö´ÐÐ¡£¶øThread¸üÏñÊÇÒ»¸ö»îÌå£¬×ÔÉí¾Í¾ßÓÐºÜ¶àÐÐÎª£¬ÄÜ¹»ÓÃÀ´Ö´ÐÐÈÎÎñ¡£
-
-£¨2£©½ö½öµ±ÄãÈ·ÊµÏëÒªÖØÐ´£¨override£©Ò»Ð©ÒÑÓÐÐÐÎªÊ±£¬²ÅÊ¹ÓÃ¼Ì³Ð£¬·ñÔòÇëÊ¹ÓÃ½Ó¿Ú¡£
-
-£¨3£©ÔÚJava 5Ö®Ç°£¬´´½¨ÁËThreadÈ´Ã»µ÷ÓÃÆästart()·½·¨£¬¿ÉÄÜµ¼ÖÂÄÚ´æÐ¹Â¶¡£
+Ò»ï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½Æ¼ï¿½Ê¹ï¿½Ã·ï¿½Ê½ï¿½ï¿½1ï¿½ï¿½,ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø±ï¿½È¥ï¿½ï¿½×¢ï¿½ß³Ìµï¿½ï¿½ï¿½Îªï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½Ð´Threadï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½Îªï¿½ò·½·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½
+ï¿½ï¿½Ë£ï¿½Ê¹ï¿½Ã½Ó¿ÚµÄ·ï¿½Ê½ï¿½Ü±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½Í¬Ê±Ò²ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½Ì³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à£¬ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î¡£
 
 
-stackoverflowÁ´½Ó£º
+###ï¿½ï¿½ï¿½ï¿½ï¿½tipsï¿½ï¿½
+ï¿½ï¿½1ï¿½ï¿½Runnableï¿½ï¿½Threadï¿½ï¿½ï¿½Ç¶ÔµÈµÄ¸ï¿½ï¿½ï¿½
+ï¿½ï¿½Thinking in Javaï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â²Û¹ï¿½Runnableï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Taskï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½Javaï¿½Ð£ï¿½RunnableÖ»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½Î¶ï¿½ï¿½Ñ£ï¿½ï¿½Ç¾ï¿½Ì¬ï¿½Ä¸ï¿½ï¿½î£¬ï¿½ï¿½ÒªÍ¨ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½Ö´ï¿½Ð¡ï¿½ï¿½ï¿½Threadï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½å£¬ï¿½ï¿½ï¿½ï¿½ï¿½Í¾ï¿½ï¿½ÐºÜ¶ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È·Êµï¿½ï¿½Òªï¿½ï¿½Ð´ï¿½ï¿½overrideï¿½ï¿½Ò»Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÊ±ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã¼Ì³Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã½Ó¿Ú¡ï¿½
+
+ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½Java 5Ö®Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ThreadÈ´Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½start()ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Üµï¿½ï¿½ï¿½ï¿½Ú´ï¿½Ð¹Â¶ï¿½ï¿½
+
+
+stackoverflowï¿½ï¿½ï¿½Ó£ï¿½
 http://stackoverflow.com/questions/541487/implements-runnable-vs-extends-thread
 

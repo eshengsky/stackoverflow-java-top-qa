@@ -1,4 +1,4 @@
-##如何将String转换为Int
+## 如何将String转换为Int
 
 有两种方式
 
@@ -34,4 +34,4 @@ try {
 }
 ```
 
-stackoverflow链接：http://stackoverflow.com/questions/5585779/converting-string-to-int-in-java
+ 

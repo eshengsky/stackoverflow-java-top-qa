@@ -41,4 +41,4 @@ class A {
 ```
 在这里, `new A() { ... }`是一个定义在静态上下文的内部类对象, 并没有一个外围对象.
 
-stackoverflow链接: [Java inner class and static nested class](http://stackoverflow.com/questions/70324/java-inner-class-and-static-nested-class)
+ 

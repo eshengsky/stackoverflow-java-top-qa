@@ -1,4 +1,4 @@
-##如何将String转换为enum
+## 如何将String转换为enum
 
 ### 问题
 假设定义了如下的enum（枚举）：
@@ -79,4 +79,4 @@ public static MyEnum fromString(String name) {
 }
 ```
 
-stackoverflow链接：http://stackoverflow.com/questions/604424/convert-a-string-to-an-enum-in-java
+ 
